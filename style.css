@@ -1,0 +1,279 @@
+.main{
+    background-image: url("images/Netflixbackground1.jpg") ;
+    height: 95vh;
+   
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    position: relative;
+    
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+p{
+    margin-left: 45px;
+}
+section
+{
+    margin-left: 50px;
+    position: relative;
+    z-index: 1;
+}
+.box
+{
+    height: 95vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top:0;
+}
+nav {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 100px;
+    position: relative;
+    z-index: 2;
+}
+.btns
+{
+    display: flex;
+    gap: 10px;
+}
+ nav button{
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    width: 12vb;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+nav select
+{
+    background-color: transparent;
+    color: white;
+    width: 15vb;
+    border-radius: 4px;
+}
+.text1
+{
+    position: relative;
+    display: flex;
+    line-height: 70px;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+}
+
+.text2
+{
+    line-height :70px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.text3
+{
+   display: flex;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: center;
+}
+.container3 
+{
+    position: relative;
+    z-index: 1;
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+.btn{
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 60px;
+    line-height: 24px;
+    z-index: 1;
+    border-radius: 0.25rem;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.container2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    margin: 10px;
+}
+span input{
+    width: 420px;
+    height: 45px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:  rgb(23, 23, 23,0.5) ;
+    color: white;
+    border: 2px solid white;
+}
+nav img {
+    height: 90px;
+    width: auto;
+    object-fit: contain;
+    margin-left: 0; /* ensure no left gap */
+}
+.first,.second
+{
+     margin: 50px;
+     margin-top: 10px;
+     display: flex;
+}
+.card1
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    background-color: aliceblue ;
+    align-items: center;       
+    margin: 15px;
+}
+.card2
+{
+    height: 300px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+   
+    flex-direction: column;
+    width: 400px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    background: linear-gradient(to top right, #0d0b3a, #3a0a3b);
+}
+
+.card2 img{
+   margin-left: 200px;
+    
+    
+}
+
+.card2 p{
+    margin: 25px;
+}
+.card3{
+    height: 10vh;
+    background-color: rgb(45, 45, 45);
+    width: 190vb;
+    margin-left: 25px;
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+.card3:hover
+{
+    background-color:rgb(96 95 95) ;
+    display: flex;
+}
+.card3 p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    font-size: 24px ;
+    font-weight: 400;
+    
+    line-height: normal;
+}
+.card3 span{
+    align-items: flex-end;
+    padding: 10px;
+    font-size: 50px;
+    line-height: normal;
+}
+.first button
+{
+    height: 150px;
+    width: 35px;
+    position: relative;
+    z-index: 1;
+    background-color: #3938388c;
+    align-items: center;       
+    margin-top: 70px;
+    color: white;
+    font-size: xx-large;
+    border-radius: 15px;
+}
+.first img{
+     height: 250px;
+    width: 250px;
+    border: 1px solid rgb(50, 49, 49);
+    
+}
+h2{
+    padding: 10px;
+    margin:15px ;
+}
+
+.footer {
+  background-color: black;
+  color: #aaa;
+  padding: 40px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  width: 200px;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.lang-select {
+  background: transparent;
+  border: 1px solid #aaa;
+  color: #aaa;
+  padding: 5px;
+  margin-top: 20px;
+}
